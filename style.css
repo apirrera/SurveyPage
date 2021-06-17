@@ -1,0 +1,20 @@
+body {
+    background-color: bisque;
+    font-size: 150%
+}
+
+#survey {
+    background-color: burlywood;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    position: relative;
+    padding: 10%
+}
+
+img {
+    max-width: 120%;
+    height: 120%;
+    position: absolute;
+    top: 250px;
+    left: -160px;
+}

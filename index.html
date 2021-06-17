@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Survey</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="survey">
+        <h1 id="title">Survey</h1>
+        <p id="description">Short Questionaire</p>
+        <form action="/test">
+            <label for="name">What is your Name?</label>
+            <input id="name" type="name" placeholder="Enter your full name" required>
+            <br>
+            <label for "age">What is your Age?</label>
+            <select name="age" id="age">
+        <option value="18under">Under 18</option>
+        <option value="18-25">18-25</option>
+        <option value="26-35">26-35</option>
+        <option value="36-45">36-45</option>
+        <option value="above 45">Above 46</option>
+    </select>
+            <br>
+            <label for="birthday">What is your Date of Birth</label>
+            <input id="birthday" type="date">
+            <br>
+            <label for="email">What is your Email?</label>
+            <input id="email" type="email" placeholder="Enter your email address">
+            <br>
+            <label for="energy">What energy drink do you prefer?</label>
+            <select name="energy" id="energy">
+        <option value="coffee">Coffee</option>
+        <option value="redbull">Redbull</option>
+        <option value="monster">Monster</option>
+        <option value="other">Other</option>
+    </select>
+            <br>
+            <label for="energy">If you selected other- what is your favorite energy drink?</label>
+            <input id="energy" type="energy" placeholder="Place your favorite energy drink here" required>
+        </form>
+    </div>
+
+    <!--<img id="coffee" src="coffee.png"> -->
+</body>
+
+</html>
